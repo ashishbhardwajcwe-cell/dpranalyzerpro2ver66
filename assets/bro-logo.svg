@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 260" role="img" aria-label="Border Roads Organisation">
+  <title>Border Roads Organisation</title>
+  <!-- Outer triangle (red border) -->
+  <polygon points="120,12 232,220 8,220" fill="#FFFFFF" stroke="#C8102E" stroke-width="4" stroke-linejoin="round"/>
+  <!-- Purple sky (upper portion clipped to triangle) -->
+  <defs>
+    <clipPath id="triClip">
+      <polygon points="120,14 230,219 10,219"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#triClip)">
+    <rect x="0" y="0" width="240" height="140" fill="#5B3A8C"/>
+    <!-- Snow mountain peaks (white) -->
+    <polygon points="40,150 95,55 130,110 165,70 210,150" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="1"/>
+    <!-- Subtle peak shading -->
+    <polygon points="95,55 115,95 75,95" fill="#F2F2F2" opacity="0.85"/>
+    <polygon points="165,70 185,110 145,110" fill="#F2F2F2" opacity="0.85"/>
+    <!-- Red base (lower portion) -->
+    <rect x="0" y="150" width="240" height="80" fill="#C8102E"/>
+    <!-- White inverted V detail at base -->
+    <polygon points="60,220 120,160 180,220" fill="#FFFFFF"/>
+    <polygon points="90,220 120,180 150,220" fill="#C8102E"/>
+  </g>
+  <!-- Sanskrit motto -->
+  <text x="120" y="248" text-anchor="middle" font-family="'Noto Sans Devanagari','Mangal','Sanskrit Text',serif" font-size="20" font-weight="700" fill="#C8102E" letter-spacing="0.5">&#x936;&#x94D;&#x930;&#x92E;&#x947;&#x923; &#x938;&#x930;&#x94D;&#x935;&#x92E;&#x94D; &#x938;&#x93E;&#x927;&#x94D;&#x92F;&#x92E;&#x94D;</text>
+</svg>
